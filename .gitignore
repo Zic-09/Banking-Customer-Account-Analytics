@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+.env
+*.env
+secrets/
+credentials/
+*.bak
+*.tmp
+*.temp
+__pycache__/
+.venv/
+venv/
+*.pbit
+*.pbix

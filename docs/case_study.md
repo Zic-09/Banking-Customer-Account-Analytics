@@ -14,7 +14,7 @@ I designed a two-table relational banking dataset and built an end-to-end workfl
 4. Converted dates and financial fields to appropriate data types
 5. Validated primary-key and foreign-key relationships
 6. Added database constraints
-7. Answered 10 business questions with SQL
+7. Answered business questions with SQL
 8. Created a reusable SQL view for Power BI
 9. Designed a dashboard framework for executive and financial analysis
 

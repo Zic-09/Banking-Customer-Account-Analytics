@@ -10,13 +10,13 @@ SELECT COUNT(*) AS rows_in_accounts FROM bank_account_details;
 -- Find possible duplicate customer contact details
 SELECT phone, COUNT(*) AS occurrences
 FROM customer
-WHERE phone IS NOT NULL AND TRIM(phone) <> ''
+WHERE phone IS NOT NULL AND TRIM(phone) != ''
 GROUP BY phone
 HAVING COUNT(*) > 1;
 
 SELECT LOWER(TRIM(email)) AS normalized_email, COUNT(*) AS occurrences
 FROM customer
-WHERE email IS NOT NULL AND TRIM(email) <> ''
+WHERE email IS NOT NULL AND TRIM(email) != ''
 GROUP BY LOWER(TRIM(email))
 HAVING COUNT(*) > 1;
 
@@ -299,7 +299,7 @@ INNER JOIN bank_account_details a
 -- Check the Power BI dataset
 SELECT * FROM vw_customer_account_analysis LIMIT 20;
 
--- Optional physical table if a BI tool or class exercise specifically
+-- Optional physical table if a BI tool specifically
 -- requires a table instead of a view:
 DROP TABLE IF EXISTS banking_analysis;
 CREATE TABLE banking_analysis AS

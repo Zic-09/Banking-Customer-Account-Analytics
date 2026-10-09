@@ -10,7 +10,7 @@
 6. Select `vw_customer_account_analysis`.
 7. Load the dataset.
 
-## Suggested Dashboard
+
 
 ### Page 1: Executive Overview
 
@@ -47,9 +47,3 @@ Slicers:
 - Average Interest Rate by Account Type
 - Account Status by Branch
 - Days Since Last Transaction
-
-## Portfolio Tip
-
-After completing the dashboard, take clean screenshots and place them in `screenshots/`. Reference the screenshots in the README.
-
-Never upload real banking credentials, passwords, connection strings, or real customer data.

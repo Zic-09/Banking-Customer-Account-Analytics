@@ -1,12 +1,9 @@
 -- BANKING DATA CLEANING PROJECT
--- MySQL 8.x
--- Run this file in MySQL Workbench.
-DROP DATABASE IF EXISTS banking_data_cleaning;
-CREATE DATABASE banking_data_cleaning;
-USE banking_data_cleaning;
+DROP DATABASE IF EXISTS real_projects;
+CREATE DATABASE real_projects;
+USE real_projects;
 
--- Raw customer table. Some fields are VARCHAR intentionally so students can
--- experience real-world type conversion during cleaning.
+-- Raw customer table.
 CREATE TABLE customer (
     customer_id VARCHAR(30),
     first_name VARCHAR(100),

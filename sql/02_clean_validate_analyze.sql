@@ -1,4 +1,4 @@
-USE banking_data_cleaning;
+USE real_projects;
 
 -- =========================================================
 -- PART 1: PROFILE THE MESS

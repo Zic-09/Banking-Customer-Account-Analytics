@@ -13,6 +13,21 @@
             "name": "My_Space",
             "database": "real_projects",
             "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 5000,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "My_Space_1",
+            "database": "real_projects",
+            "username": "root",
+            "password": "Oluwadarasimi18"
         }
     ]
 }
